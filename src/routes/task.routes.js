@@ -5,7 +5,7 @@ import {
   getSingleTask,
   deleteTask,
   updateTask,
-} from "../controllers/tasks.controller";
+} from "../tasks/tasks.controller";
 const router = Router();
 
 router.get("/", listTasks);

@@ -1,6 +1,6 @@
 import express from "express";
-import "./api/utils/database";
-import { taskRoutes } from "./api/routes";
+import "./utils/database";
+import { taskRoutes } from "./src/routes";
 
 const app = express();
 app.use(express.json());

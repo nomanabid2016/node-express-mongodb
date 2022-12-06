@@ -1,4 +1,4 @@
-import Task from "../models/Task";
+import Task from "./task.model";
 export const TaskService = {
   create: (task) => Task.create(task),
   single: (field, value) => Task.findOne({ [field]: value }),

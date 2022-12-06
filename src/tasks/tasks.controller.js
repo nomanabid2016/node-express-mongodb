@@ -1,4 +1,4 @@
-import { TaskService } from "../services/tasks.service";
+import { TaskService } from "./tasks.service";
 
 export const createTask = async (req, res) => {
   try {
